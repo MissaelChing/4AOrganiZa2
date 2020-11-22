@@ -1,0 +1,12 @@
+C:\Users\Missael Ching R&M\Desktop\4A-OrganiZa\OrganiZa.Application\bin\Debug\netcoreapp3.1\OrganiZa.Application.deps.json
+C:\Users\Missael Ching R&M\Desktop\4A-OrganiZa\OrganiZa.Application\bin\Debug\netcoreapp3.1\OrganiZa.Application.dll
+C:\Users\Missael Ching R&M\Desktop\4A-OrganiZa\OrganiZa.Application\bin\Debug\netcoreapp3.1\OrganiZa.Domain.dll
+C:\Users\Missael Ching R&M\Desktop\4A-OrganiZa\OrganiZa.Application\bin\Debug\netcoreapp3.1\OrganiZa.Domain.pdb
+C:\Users\Missael Ching R&M\Desktop\4A-OrganiZa\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.csprojAssemblyReference.cache
+C:\Users\Missael Ching R&M\Desktop\4A-OrganiZa\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.AssemblyInfoInputs.cache
+C:\Users\Missael Ching R&M\Desktop\4A-OrganiZa\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.AssemblyInfo.cs
+C:\Users\Missael Ching R&M\Desktop\4A-OrganiZa\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.csproj.CopyComplete
+C:\Users\Missael Ching R&M\Desktop\4A-OrganiZa\OrganiZa.Application\bin\Debug\netcoreapp3.1\OrganiZa.Application.pdb
+C:\Users\Missael Ching R&M\Desktop\4A-OrganiZa\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.csproj.CoreCompileInputs.cache
+C:\Users\Missael Ching R&M\Desktop\4A-OrganiZa\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.dll
+C:\Users\Missael Ching R&M\Desktop\4A-OrganiZa\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.pdb
