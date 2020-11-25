@@ -13,6 +13,10 @@ namespace OrganiZa.Infraestructure.Repositories
     {
         private readonly OrganizarecContext _context;
         private readonly IRepository<User> _usuarioRepository;
+        private readonly IRepository<Calendario> _calendarioRepository;
+        private readonly IRepository<Escuela> _escuelaRepository;
+        private readonly IRepository<Administrador> _administradorRepository;
+        private readonly IRepository<Tutor> _tutorRepository;
 
 
         public UnitOfWork(OrganizarecContext context)
@@ -21,6 +25,11 @@ namespace OrganiZa.Infraestructure.Repositories
         }
 
         public IRepository<User> UsuarioRepository => _usuarioRepository ?? new SQLRepository<User>(_context);
+        public IRepository<Calendario> CalendarioRepository => _calendarioRepository ?? new SQLRepository<Calendario>(_context);
+        public IRepository<Escuela> EscuelaRepository => _escuelaRepository ?? new SQLRepository<Escuela>(_context);
+        public IRepository<Administrador> AdministradorRepository => _administradorRepository ?? new SQLRepository<Administrador>(_context);
+        public IRepository<Tutor> TutorRepository => _tutorRepository ?? new SQLRepository<Tutor>(_context);
+
 
         public void Dispose()
         {
