@@ -13,6 +13,7 @@ namespace OrganiZa.Infraestructure.Repositories
 {
     public class SQLRepository<T> : IRepository<T> where T : BaseEntity
     {
+
         protected readonly OrganizarecContext _context;
         private DbSet<T> _entities;
 
