@@ -8965,20 +8965,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Missael Ching R&M\\.nuget\\packages\\": {}
+    "C:\\Users\\joela\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Missael Ching R&M\\Desktop\\quepedo\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj",
+      "projectUniqueName": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4A-OrganiZaotro\\OrganiZa.Api\\OrganiZa.Api.csproj",
       "projectName": "OrganiZa.Api",
-      "projectPath": "C:\\Users\\Missael Ching R&M\\Desktop\\quepedo\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj",
-      "packagesPath": "C:\\Users\\Missael Ching R&M\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Missael Ching R&M\\Desktop\\quepedo\\4AOrganiZa2\\OrganiZa.Api\\obj\\",
+      "projectPath": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4A-OrganiZaotro\\OrganiZa.Api\\OrganiZa.Api.csproj",
+      "packagesPath": "C:\\Users\\joela\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4A-OrganiZaotro\\OrganiZa.Api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Missael Ching R&M\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\joela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8990,14 +8995,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Missael Ching R&M\\Desktop\\quepedo\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj": {
-              "projectPath": "C:\\Users\\Missael Ching R&M\\Desktop\\quepedo\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj"
+            "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4A-OrganiZaotro\\OrganiZa.Application\\OrganiZa.Application.csproj": {
+              "projectPath": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4A-OrganiZaotro\\OrganiZa.Application\\OrganiZa.Application.csproj"
             },
-            "C:\\Users\\Missael Ching R&M\\Desktop\\quepedo\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
-              "projectPath": "C:\\Users\\Missael Ching R&M\\Desktop\\quepedo\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
+            "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4A-OrganiZaotro\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
+              "projectPath": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4A-OrganiZaotro\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
             },
-            "C:\\Users\\Missael Ching R&M\\Desktop\\quepedo\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {
-              "projectPath": "C:\\Users\\Missael Ching R&M\\Desktop\\quepedo\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj"
+            "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4A-OrganiZaotro\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4A-OrganiZaotro\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj"
             }
           }
         }
@@ -9066,7 +9071,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
