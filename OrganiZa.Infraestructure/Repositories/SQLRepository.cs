@@ -9,7 +9,6 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace OrganiZa.Infraestructure.Repositories
 {
     public class SQLRepository<T> : IRepository<T> where T : BaseEntity
