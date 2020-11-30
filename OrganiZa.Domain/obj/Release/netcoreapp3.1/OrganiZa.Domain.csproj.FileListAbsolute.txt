@@ -1,9 +1,0 @@
-C:\Users\Missael Ching R&M\Desktop\quepedo\4AOrganiZa2\OrganiZa.Domain\bin\Release\netcoreapp3.1\OrganiZa.Domain.deps.json
-C:\Users\Missael Ching R&M\Desktop\quepedo\4AOrganiZa2\OrganiZa.Domain\bin\Release\netcoreapp3.1\OrganiZa.Domain.dll
-C:\Users\Missael Ching R&M\Desktop\quepedo\4AOrganiZa2\OrganiZa.Domain\bin\Release\netcoreapp3.1\OrganiZa.Domain.pdb
-C:\Users\Missael Ching R&M\Desktop\quepedo\4AOrganiZa2\OrganiZa.Domain\obj\Release\netcoreapp3.1\OrganiZa.Domain.csprojAssemblyReference.cache
-C:\Users\Missael Ching R&M\Desktop\quepedo\4AOrganiZa2\OrganiZa.Domain\obj\Release\netcoreapp3.1\OrganiZa.Domain.AssemblyInfoInputs.cache
-C:\Users\Missael Ching R&M\Desktop\quepedo\4AOrganiZa2\OrganiZa.Domain\obj\Release\netcoreapp3.1\OrganiZa.Domain.AssemblyInfo.cs
-C:\Users\Missael Ching R&M\Desktop\quepedo\4AOrganiZa2\OrganiZa.Domain\obj\Release\netcoreapp3.1\OrganiZa.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Missael Ching R&M\Desktop\quepedo\4AOrganiZa2\OrganiZa.Domain\obj\Release\netcoreapp3.1\OrganiZa.Domain.dll
-C:\Users\Missael Ching R&M\Desktop\quepedo\4AOrganiZa2\OrganiZa.Domain\obj\Release\netcoreapp3.1\OrganiZa.Domain.pdb
