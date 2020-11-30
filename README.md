@@ -3,7 +3,7 @@
 ##  Datos Generales
 - Escuela: Universidad Técnologica Metropolitana
 - Materia: Aplicaciones web orientas a servicios
-- Alumnos: - Missael Del Jesus CHing Mendez - Joel Aaron Puc Ravell - Kevin Gabriel Euan Monsreal
+- Alumnos: 1- Missael Del Jesus Ching Mendez 2- Joel Aaron Puc Ravell 3- Kevin Gabriel Euan Monsreal
 - Grado: 4
 - Grupo: A
 - Carrera: Tecnologías de la Informacion y comunicación
