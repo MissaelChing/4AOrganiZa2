@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Xiq2W2xxuM7uCGYmi5X8tUnGgjiQ6jAHTibwEsiIncUnzKi+Gf5xWtKN6RdBsMuRAujKVOXVamh/UVf/DVSSQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Domain\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+}
