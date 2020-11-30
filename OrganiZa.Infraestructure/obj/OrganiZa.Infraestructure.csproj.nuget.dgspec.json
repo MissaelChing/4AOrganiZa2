@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {}
+    "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
+    "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj",
         "projectName": "OrganiZa.Domain",
-        "projectPath": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj",
+        "projectPath": "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj",
         "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Domain\\obj\\",
+        "outputPath": "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {
+    "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj",
         "projectName": "OrganiZa.Infraestructure",
-        "projectPath": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj",
+        "projectPath": "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -87,8 +87,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
-                "projectPath": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
+              "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
+                "projectPath": "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
               }
             }
           }

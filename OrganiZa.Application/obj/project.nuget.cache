@@ -1,19 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MKJIowBbUbVNA5frKTgtootGnba3WZfemxxOZN3qDcy54upbJipfbIBw8jdq/KTIjUaKSOviFWUZE94dpg/N7Q==",
+  "dgSpecHash": "4ulJnD36QyJ6xUVBE1bbQVpt6CRgrSOnm3lGL3PpmCRgSmAMwDqlXIn+qFWL1BGxAhvVE6YIdWtDqEZeexNwUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj",
+  "projectFilePath": "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kevin\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\kevin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\kevin\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Application\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

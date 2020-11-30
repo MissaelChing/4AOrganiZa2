@@ -8971,11 +8971,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj",
+      "projectUniqueName": "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj",
       "projectName": "OrganiZa.Api",
-      "projectPath": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj",
+      "projectPath": "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj",
       "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Api\\obj\\",
+      "outputPath": "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -8995,14 +8995,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj": {
-              "projectPath": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj"
+            "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj": {
+              "projectPath": "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj"
             },
-            "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
-              "projectPath": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
+            "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
+              "projectPath": "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
             },
-            "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {
-              "projectPath": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj"
+            "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj"
             }
           }
         }
@@ -9074,13 +9074,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Api\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

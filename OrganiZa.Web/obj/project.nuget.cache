@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8nwGqdol7ygmKRhhJh371MA0j1JiAW7v2PHVbLV2vYMOihXERduVoLg8gWKqYSPR/QGdYUiD167CDHTyxi8xqQ==",
+  "dgSpecHash": "NBrNOmkCjS5fRz2Ty5RoEq14pQ6lIickuMflTPwlGqBH353Lbwt3pQv8UXkukUvjd7TYrHmohDk5IIWTHPcH5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Web\\OrganiZa.Web.csproj",
+  "projectFilePath": "C:\\Users\\kevin\\Desktop\\OrganiZa2\\4AOrganiZa2\\OrganiZa.Web\\OrganiZa.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kevin\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\kevin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
@@ -170,12 +170,5 @@
     "C:\\Users\\kevin\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\kevin\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\kevin\\Desktop\\enviar missa\\PROYECTO OR\\4AOrganiZa2\\OrganiZa.Web\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
