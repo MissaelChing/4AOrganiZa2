@@ -41,6 +41,7 @@ namespace OrganiZa.Web.Controllers
                         models.Pagos = Pagos.Data.Where(x => x.TutorId == m.TutorId).ToList();
 
                         break;
+
                     }
                 }
                 return View(models);
