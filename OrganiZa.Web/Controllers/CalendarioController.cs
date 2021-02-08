@@ -21,15 +21,32 @@ namespace OrganiZa.Web.Controllers
 
         public IActionResult Generar()
         {
-            return View();
+            CalendarioModels calendarios = new CalendarioModels();
+            calendarios.id = int.Parse(HttpContext.Session.GetString("Id"));
+            calendarios.Rolusuario = HttpContext.Session.GetString("Rol");
+            calendarios.Usuario = HttpContext.Session.GetString("Usuario");
+            return View(calendarios);
         }
         [HttpPost]
         public async Task<IActionResult> Generar(CalendarioModels calendarios)
         {
-            CalendarioRequestDto calendarioRequestDto = calendarios.Calendario;
             calendarios.id = int.Parse(HttpContext.Session.GetString("Id"));
+            calendarios.Rolusuario = HttpContext.Session.GetString("Rol");
+            calendarios.Usuario = HttpContext.Session.GetString("Usuario");
+            CalendarioRequestDto calendarioRequestDto = calendarios.Calendario;
+            
             calendarios.Calendario.IdA = int.Parse(HttpContext.Session.GetString("Id"));
             var Json = await client.PostAsJsonAsync("https://localhost:44337/api/Calendario/", calendarioRequestDto);
+            var Es = await client.GetStringAsync("https://localhost:44337/api/escuela/");
+            var Escue = JsonConvert.DeserializeObject<ApiResponse<List<EscuelaResponseDto>>>(Es);
+            foreach (var m in Escue.Data)
+            {
+
+                calendarios.Escuelas = Escue.Data.ToList();
+
+                break;
+
+            }
             if (Json.IsSuccessStatusCode)
             {
                 return RedirectToAction("Home", "Home");

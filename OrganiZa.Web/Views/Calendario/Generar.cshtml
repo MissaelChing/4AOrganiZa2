@@ -3,7 +3,7 @@
 @model CalendarioModels
 @{
 
-    Layout = null;
+    
 }
 
 <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
@@ -16,7 +16,7 @@
 
         <div class="header">
             <br>
-            <h3>Agregar Fechas</h3>
+            
 
 
         </div>
@@ -25,6 +25,14 @@
             <br>
             <br>
         </div>
+
+        @foreach (var item in Model.Escuelas)
+        {
+            @if (item.ModoP == "Cuatrimetral")
+            {
+                <h3>Agregar Fechas</h3>
+            }
+        }
         @using (Html.BeginForm())
         {
             @Html.AntiForgeryToken()
