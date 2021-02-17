@@ -46,10 +46,6 @@ namespace OrganiZa.Web.Controllers
             calendarios.id = int.Parse(HttpContext.Session.GetString("Id"));
             calendarios.Rolusuario = HttpContext.Session.GetString("Rol");
             calendarios.Usuario = HttpContext.Session.GetString("Usuario");
-            CalendarioRequestDto calendarioRequestDto = calendarios.Calendario;
-            
-            calendarios.Calendario.IdA = int.Parse(HttpContext.Session.GetString("Id"));
-            var Json = await client.PostAsJsonAsync("https://localhost:44337/api/Calendario/", calendarioRequestDto);
             var Es = await client.GetStringAsync("https://localhost:44337/api/escuela");
             var pag = JsonConvert.DeserializeObject<ApiResponse<List<EscuelaResponseDto>>>(Es);
             foreach (var m in pag.Data)
@@ -60,13 +56,63 @@ namespace OrganiZa.Web.Controllers
 
                     break;
                 }
-                return View(calendarios);
 
 
             }
-            if (Json.IsSuccessStatusCode)
+            CalendarioRequestDto calendarioRequestDto = calendarios.Calendario;
+            calendarioRequestDto.Colegiatura = calendarios.Escuelas.Colegiatura;
+            calendarioRequestDto.IdA = calendarios.Escuelas.IdA;
+            calendarioRequestDto.ModoP = calendarios.Escuelas.ModoP;
+            calendarioRequestDto.IdE = calendarios.Escuelas.Id;
+            var Json = await client.PostAsJsonAsync("https://localhost:44337/api/Calendario/", calendarioRequestDto);
+            
+            
+            
+            return View(calendarios);
+        }
+        public async Task<IActionResult> CTutor(int Id)
+        {
+            CTutorModels calendarios = new CTutorModels();
+            calendarios.id = int.Parse(HttpContext.Session.GetString("Id"));
+            calendarios.Rolusuario = HttpContext.Session.GetString("Rol");
+            calendarios.Usuario = HttpContext.Session.GetString("Usuario");
+            var Es = await client.GetStringAsync("https://localhost:44337/api/escuela");
+            var pag = JsonConvert.DeserializeObject<ApiResponse<List<EscuelaResponseDto>>>(Es);
+            var calen = await client.GetStringAsync("https://localhost:44337/api/Calendario");
+            var cal = JsonConvert.DeserializeObject<ApiResponse<List<CalendarioReponseDto>>>(calen);
+            var Tutores = await client.GetStringAsync("https://localhost:44337/api/Tutor");
+            var Tutors = JsonConvert.DeserializeObject<ApiResponse<List<TutorResponseDto>>>(Tutores);
+            foreach (var m in Tutors.Data)
             {
-                return RedirectToAction("Home", "Home");
+
+                if (m.Id == calendarios.id)
+                {
+                    calendarios.Tutores = m;
+
+                    break;
+                }
+               
+
+            }
+            foreach (var m in pag.Data)
+            {
+
+                if (m.Id == calendarios.Tutores.IdE)
+                {
+                    calendarios.Escuela = m;
+
+                    break;
+                }
+                
+
+            }
+            foreach (var m in cal.Data)
+            {
+
+                calendarios.calendarios = cal.Data.Where(x => x.IdE == calendarios.Tutores.IdE).ToList();
+
+                break;
+
             }
             return View(calendarios);
         }
