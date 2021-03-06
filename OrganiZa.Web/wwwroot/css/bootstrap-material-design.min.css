@@ -98,66 +98,7 @@ body .container .jumbotron-danger, body .container .well-danger, body .container
     background-color: #f44336
 }
 
-.btn, .input-group-btn .btn {
-    border: none;
-    border-radius: 2px;
-    position: relative;
-    padding: 8px 30px;
-    margin: 10px 1px;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0;
-    will-change: box-shadow,transform;
-    -webkit-transition: -webkit-box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
-    -o-transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
-    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
-    outline: 0;
-    cursor: pointer;
-    text-decoration: none;
-    background: 0 0
-}
 
-    .btn::-moz-focus-inner, .input-group-btn .btn::-moz-focus-inner {
-        border: 0
-    }
-
-    .btn:not(.btn-raised), .input-group-btn .btn:not(.btn-raised) {
-        -webkit-box-shadow: none;
-        box-shadow: none
-    }
-
-        .btn:not(.btn-raised), .btn:not(.btn-raised).btn-default, .input-group-btn .btn:not(.btn-raised), .input-group-btn .btn:not(.btn-raised).btn-default {
-            color: rgba(0,0,0,.87)
-        }
-
-            .btn:not(.btn-raised).btn-inverse, .input-group-btn .btn:not(.btn-raised).btn-inverse {
-                color: #3f51b5
-            }
-
-            .btn:not(.btn-raised).btn-primary, .input-group-btn .btn:not(.btn-raised).btn-primary {
-                color: #009688
-            }
-
-            .btn:not(.btn-raised).btn-success, .input-group-btn .btn:not(.btn-raised).btn-success {
-                color: #4caf50
-            }
-
-            .btn:not(.btn-raised).btn-info, .input-group-btn .btn:not(.btn-raised).btn-info {
-                color: #03a9f4 
-            }
-
-            .btn:not(.btn-raised).btn-warning, .input-group-btn .btn:not(.btn-raised).btn-warning {
-                color: #ff5722
-            }
-
-            .btn:not(.btn-raised).btn-danger, .input-group-btn .btn:not(.btn-raised).btn-danger {
-                color: #f44336
-            }
-
-            .btn:not(.btn-raised):not(.btn-link):focus, .btn:not(.btn-raised):not(.btn-link):hover, .input-group-btn .btn:not(.btn-raised):not(.btn-link):focus, .input-group-btn .btn:not(.btn-raised):not(.btn-link):hover {
-                background-color: rgba(153,153,153,.2)
-            }
 
 .theme-dark .btn:not(.btn-raised):not(.btn-link):focus, .theme-dark .btn:not(.btn-raised):not(.btn-link):hover, .theme-dark .input-group-btn .btn:not(.btn-raised):not(.btn-link):focus, .theme-dark .input-group-btn .btn:not(.btn-raised):not(.btn-link):hover {
     background-color: rgba(204,204,204,.15)

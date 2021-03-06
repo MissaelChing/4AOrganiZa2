@@ -97,3 +97,12 @@ C:\Users\MissaelChingRM\Desktop\PROYECTO\Nueva carpeta\4AOrganiZa2\OrganiZa.Doma
 C:\Users\MissaelChingRM\Desktop\PROYECTO\Nueva carpeta\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.csproj.CoreCompileInputs.cache
 C:\Users\MissaelChingRM\Desktop\PROYECTO\Nueva carpeta\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.dll
 C:\Users\MissaelChingRM\Desktop\PROYECTO\Nueva carpeta\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.pdb
+C:\Users\joela\Documents\UTM\Repositorios\4AOrganiZa2\OrganiZa.Domain\bin\Debug\netcoreapp3.1\OrganiZa.Domain.deps.json
+C:\Users\joela\Documents\UTM\Repositorios\4AOrganiZa2\OrganiZa.Domain\bin\Debug\netcoreapp3.1\OrganiZa.Domain.dll
+C:\Users\joela\Documents\UTM\Repositorios\4AOrganiZa2\OrganiZa.Domain\bin\Debug\netcoreapp3.1\OrganiZa.Domain.pdb
+C:\Users\joela\Documents\UTM\Repositorios\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.csprojAssemblyReference.cache
+C:\Users\joela\Documents\UTM\Repositorios\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.AssemblyInfoInputs.cache
+C:\Users\joela\Documents\UTM\Repositorios\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.AssemblyInfo.cs
+C:\Users\joela\Documents\UTM\Repositorios\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.csproj.CoreCompileInputs.cache
+C:\Users\joela\Documents\UTM\Repositorios\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.dll
+C:\Users\joela\Documents\UTM\Repositorios\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.pdb
