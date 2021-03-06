@@ -1,0 +1,97 @@
+﻿@model MenuAModel
+@{
+}
+<div class="row">
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+</div>
+<div class="row text-center">
+    <div class="card-deck col-md-4 text-center">
+        <div class="card bg-light" style="min-width:18rem; max-width:30.5%">
+            <div class="card-header">
+                <h4>Comprobar Pagos</h4>
+            </div>
+            <img class="card-img-top img-thumbnail imgThumbnail" src="~/images/Pagos.jpg"
+                 alt="" asp-append-version="true">
+            <div class="card-body">
+                <h5 class="card-title" dis></h5>
+                <p class="card-text">
+                    <ul>
+                        <li>Verifica los pagos de sus tutores</li>
+                    </ul>
+                </p>
+                <p class="card-text">
+                    Verificar que la documentacion sea correcta
+                </p>
+
+            </div>
+            <div class="card-footer text-center">
+                <a asp-controller="Pagos" asp-action="Comprobacion" class="btn btn-success m-1">Comprobar</a>
+            </div>
+        </div>
+    </div>
+    <div class="card-deck col-md-4 text-center">
+        <div class="card bg-light" style="min-width:18rem; max-width:30.5%">
+            <div class="card-header">
+                <h4>Generar calendario</h4>
+            </div>
+            <img class="card-img-top img-thumbnail imgThumbnail" src="~/images/Calendario.jpeg"
+                 alt="" asp-append-version="true">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">
+                    <ul>
+                        <li>Crear calendario para los pagos</li>
+                    </ul>
+                </p>
+                <p class="card-text">
+                    En este apartado podras crear el calendario de pagos
+                </p>
+
+            </div>
+            <div class="card-footer text-center">
+                <a asp-controller="Calendario" asp-action="Generar" class="btn btn btn-success ">Generar</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-deck col-md-4 text-center">
+        <div class="card bg-light" style="min-width:18rem; max-width:30.5%">
+            <div class="card-header">
+                <h4>Ver informacion de la escuela</h4>
+            </div>
+            <img class="card-img-top img-thumbnail imgThumbnail" src="~/images/Escuela.png"
+                 alt="" asp-append-version="true">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">
+                    <ul>
+                        <li>Visualizar Escuela</li>
+                    </ul>
+                </p>
+                <p class="card-text">
+                    En este apartado podras visualizar la escuela que has registrado
+                </p>
+
+            </div>
+            <div class="card-footer text-center">
+                <a asp-controller="Escuela" asp-action="Details" class="btn btn btn-success ">Visualizar</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-2">
+    </div>
+</div>
+<div class="row">
+
+    <div class="col-md-12">
+        <br>
+        <br>
+    </div>
+</div>
