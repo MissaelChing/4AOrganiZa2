@@ -35,7 +35,7 @@ namespace OrganiZa.Web.Controllers
             ReDto.Usuario = HttpContext.Session.GetString("Usuario");
             ReDto.Rolusuario = HttpContext.Session.GetString("Rol");
 
-            var pa = await client.GetStringAsync("https://localhost:44337/api/Usuario/");
+            var pa = await client.GetStringAsync("http://organiza.somee.com/api/Usuario/");
             var pag = JsonConvert.DeserializeObject<ApiResponse<List<UsuarioResponseDto>>>(pa);
             foreach (var m in pag.Data)
             {
@@ -63,7 +63,7 @@ namespace OrganiZa.Web.Controllers
             ReDto.Usuario = HttpContext.Session.GetString("Usuario");
             ReDto.Rolusuario = HttpContext.Session.GetString("Rol");
 
-            var pa = await client.GetStringAsync("https://localhost:44337/api/Usuario/");
+            var pa = await client.GetStringAsync("http://organiza.somee.com/api/Usuario/");
             var pag = JsonConvert.DeserializeObject<ApiResponse<List<UsuarioResponseDto>>>(pa);
             foreach (var m in pag.Data)
             {
@@ -129,9 +129,9 @@ namespace OrganiZa.Web.Controllers
             models2.Id = int.Parse(HttpContext.Session.GetString("Id"));
             models2.Usuario = HttpContext.Session.GetString("Usuario");
             models2.Rolusuario = HttpContext.Session.GetString("Rol");
-            var Tutores = await client.GetStringAsync("https://localhost:44337/api/tutor/");
+            var Tutores = await client.GetStringAsync("http://organiza.somee.com/api/tutor/");
             var Tutors = JsonConvert.DeserializeObject<ApiResponse<List<TutorResponseDto>>>(Tutores);
-            var pa = await client.GetStringAsync("https://localhost:44337/api/Escuela/");
+            var pa = await client.GetStringAsync("http://organiza.somee.com/api/Escuela/");
             var pag = JsonConvert.DeserializeObject<ApiResponse<List<EscuelaResponseDto>>>(pa);
             foreach (var m in pag.Data)
             {

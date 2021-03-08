@@ -15,7 +15,7 @@ namespace OrganiZa.Web.Controllers
     public class EscuelaController : Controller
     {
         HttpClient client = new HttpClient();
-        public string url  = "https://localhost:44337/api/Escuela";
+        public string url  = "http://organiza.somee.com/api/Escuela";
         public async Task<IActionResult> Details(int Id)
         {
             Id = int.Parse(HttpContext.Session.GetString("Id"));
@@ -25,7 +25,7 @@ namespace OrganiZa.Web.Controllers
                 var json1 = await client.GetStringAsync(url);
                 var Usuarios = JsonConvert.DeserializeObject<ApiResponse<List<EscuelaResponseDto>>>(json1);
                 var _Usuario = Usuarios.Data.FirstOrDefault(e => e.IdA.Equals(Id));
-                var Json = await httpClient.GetStringAsync("https://localhost:44337/api/Escuela/" + _Usuario.Id);
+                var Json = await httpClient.GetStringAsync("http://organiza.somee.com/api/Escuela/" + _Usuario.Id);
                 var Escuela = JsonConvert.DeserializeObject<ApiResponse<EscuelaResponseDto>>(Json);
                 RegistroEModels registroE = new RegistroEModels();
                 registroE.Id = int.Parse(HttpContext.Session.GetString("Id"));
@@ -44,7 +44,7 @@ namespace OrganiZa.Web.Controllers
         public async Task<IActionResult> BuscarCodigo(BuscarModels models2)
         { 
 
-            var Tutores = await client.GetStringAsync("https://localhost:44337/api/escuela/");
+            var Tutores = await client.GetStringAsync("http://organiza.somee.com/api/escuela/");
             var Tutors = JsonConvert.DeserializeObject<ApiResponse<List<EscuelaResponseDto>>>(Tutores);
             foreach (var m in Tutors.Data)
             {
@@ -86,7 +86,7 @@ namespace OrganiZa.Web.Controllers
             EscuelaRequestDto escuelaRequestDto = Escuelas.Escuela;
             Escuelas.Escuela.IdA = int.Parse(HttpContext.Session.GetString("Id"));
             Escuelas.Escuela.CreatedBy = int.Parse(HttpContext.Session.GetString("Id"));
-            var Json = await client.PostAsJsonAsync("https://localhost:44337/api/Escuela/", escuelaRequestDto);
+            var Json = await client.PostAsJsonAsync("http://organiza.somee.com/api/Escuela/", escuelaRequestDto);
           
             if (Json.IsSuccessStatusCode)
             {
@@ -101,7 +101,7 @@ namespace OrganiZa.Web.Controllers
             if (HttpContext.Session.GetString("Id") != null)
             {
                 var httpClient = new HttpClient();
-                var Json = await httpClient.GetStringAsync("https://localhost:44337/api/Escuela/" + Id);
+                var Json = await httpClient.GetStringAsync("http://organiza.somee.com/api/Escuela/" + Id);
                 var Escuela = JsonConvert.DeserializeObject<ApiResponse<EscuelaRequestDto>>(Json);
                 Escuela.Data.Usuario = HttpContext.Session.GetString("Usuario");
 
@@ -124,7 +124,7 @@ namespace OrganiZa.Web.Controllers
             tutor.Id = int.Parse(HttpContext.Session.GetString("Id"));
             tutor.Rolusuario = HttpContext.Session.GetString("Rol");
             tutor.Usuario = HttpContext.Session.GetString("Usuario");
-            var putTask = await client.PutAsJsonAsync("https://localhost:44337/api/Administrador/?id=" + Id, tutor);
+            var putTask = await client.PutAsJsonAsync("http://organiza.somee.com/api/Administrador/?id=" + Id, tutor);
             if (putTask.IsSuccessStatusCode)
             {
                 return RedirectToAction("Details");

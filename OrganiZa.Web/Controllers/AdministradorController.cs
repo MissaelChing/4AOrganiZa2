@@ -22,7 +22,7 @@ namespace OrganiZa.Web.Controllers
                 Id = int.Parse(HttpContext.Session.GetString("Id"));
 
                 var httpClient = new HttpClient();
-                var Json = await httpClient.GetStringAsync("https://localhost:44337/api/Administrador/" + Id);
+                var Json = await httpClient.GetStringAsync("http://organiza.somee.com/api/Administrador/" + Id);
                 var admi = JsonConvert.DeserializeObject<ApiResponse<AdministradorResponseDto>>(Json);
                 admi.Data.Usuario = HttpContext.Session.GetString("Usuario");
                 return View(admi.Data);
@@ -61,8 +61,8 @@ namespace OrganiZa.Web.Controllers
 
             AdministradorRequestDto adminRequestDto = admin.Administrador;
             admin.Administrador.Rolusuario = "Administrador";
-            var Json = await client.PostAsJsonAsync("https://localhost:44337/api/Administrador/", adminRequestDto);
-            var Tutor = await client.GetStringAsync("https://localhost:44337/api/Administrador/");
+            var Json = await client.PostAsJsonAsync("http://organiza.somee.com/api/Administrador/", adminRequestDto);
+            var Tutor = await client.GetStringAsync("http://organiza.somee.com/api/Administrador/");
             var Tutors = JsonConvert.DeserializeObject<ApiResponse<List<AdministradorResponseDto>>>(Tutor);
             UsuarioRequestDto usuarioRequestDto = admin.Usuario;
             if (Json.IsSuccessStatusCode)
@@ -70,7 +70,7 @@ namespace OrganiZa.Web.Controllers
                 admin.Usuario.Rolusuario = "Administrador";
                 admin.Usuario.IdA = Tutors.Data.Last().Id;
             }
-            var Json2 = await client.PostAsJsonAsync("https://localhost:44337/api/usuario/", usuarioRequestDto);
+            var Json2 = await client.PostAsJsonAsync("http://organiza.somee.com/api/usuario/", usuarioRequestDto);
             if (Json.IsSuccessStatusCode && Json2.IsSuccessStatusCode)
             {
                 return RedirectToAction("Home", "Home");
@@ -85,7 +85,7 @@ namespace OrganiZa.Web.Controllers
                 Id = int.Parse(HttpContext.Session.GetString("Id"));
 
                 var httpClient = new HttpClient();
-                var Json = await httpClient.GetStringAsync("https://localhost:44337/api/Administrador/" + Id);
+                var Json = await httpClient.GetStringAsync("http://organiza.somee.com/api/Administrador/" + Id);
                 var admin = JsonConvert.DeserializeObject<ApiResponse<AdministradorRequestDto>>(Json);
                 admin.Data.Usuario = HttpContext.Session.GetString("Usuario");
 
@@ -108,7 +108,7 @@ namespace OrganiZa.Web.Controllers
             tutor.Id = int.Parse(HttpContext.Session.GetString("Id"));
             tutor.Rolusuario = HttpContext.Session.GetString("Rol");
             tutor.Usuario = HttpContext.Session.GetString("Usuario");
-            var putTask = await client.PutAsJsonAsync("https://localhost:44337/api/Administrador/?id=" + Id, tutor);
+            var putTask = await client.PutAsJsonAsync("http://organiza.somee.com/api/Administrador/?id=" + Id, tutor);
             if (putTask.IsSuccessStatusCode)
             {
                 return RedirectToAction("Details");

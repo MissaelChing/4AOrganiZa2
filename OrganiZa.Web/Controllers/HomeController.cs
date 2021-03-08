@@ -19,7 +19,7 @@ namespace OrganiZa.Web.Controllers
     {        
 
         HttpClient client = new HttpClient();
-        public string url = "https://localhost:44337/api/usuario";
+        public string url = "http://organiza.somee.com/api/usuario";
         public IActionResult Index()
         {
           
@@ -60,7 +60,7 @@ namespace OrganiZa.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> IndexAsync(LoginModel login)
         {
-            var json = await client.GetStringAsync("https://localhost:44337/api/usuario/");
+            var json = await client.GetStringAsync("http://organiza.somee.com/api/usuario/");
             var Usuarios = JsonConvert.DeserializeObject<ApiResponse<List<UsuarioResponseDto>>>(json);
             if(login.Usuario == null && login.Contraseña ==null)
             {

@@ -17,7 +17,7 @@ namespace OrganiZa.Web.Controllers
     public class PagosController : Controller
     {
         HttpClient client = new HttpClient();
-        string url = "https://localhost:44337/api/pago";
+        string url = "http://organiza.somee.com/api/pago";
         bool bolean = false;
 
         public IActionResult PagoExito()
@@ -34,7 +34,7 @@ namespace OrganiZa.Web.Controllers
             {
                 var json = await client.GetStringAsync(url);
                 var Pagos = JsonConvert.DeserializeObject<ApiResponse<List<PagoResponseDto>>>(json);
-                var pa = await client.GetStringAsync("https://localhost:44337/api/pago/");
+                var pa = await client.GetStringAsync("http://organiza.somee.com/api/pago/");
                 var pag = JsonConvert.DeserializeObject<ApiResponse<List<PagoRequestDto>>>(pa);
                 foreach (var m in pag.Data)
                 {
@@ -65,7 +65,7 @@ namespace OrganiZa.Web.Controllers
             {
                 var json = await client.GetStringAsync(url);
                 var Pagos = JsonConvert.DeserializeObject<ApiResponse<List<PagoResponseDto>>>(json);
-                var Tutores = await client.GetStringAsync("https://localhost:44337/api/escuela/");
+                var Tutores = await client.GetStringAsync("http://organiza.somee.com/api/escuela/");
                 var Tutors = JsonConvert.DeserializeObject<ApiResponse<List<EscuelaRequestDto>>>(Tutores);
                 foreach (var m in Tutors.Data)
                 {
@@ -94,7 +94,7 @@ namespace OrganiZa.Web.Controllers
             pagoDto.Rolusuario = HttpContext.Session.GetString("Rol");
             if (HttpContext.Session.GetString("Id") != null)
             {
-                var json = await client.GetStringAsync("https://localhost:44337/api/pago/" + id);
+                var json = await client.GetStringAsync("http://organiza.somee.com/api/pago/" + id);
                 var _Pago = JsonConvert.DeserializeObject<ApiResponse<PagoRequestDto>>(json);
                 pagoDto.pagos = _Pago.Data;
                 return View(pagoDto);
@@ -115,7 +115,7 @@ namespace OrganiZa.Web.Controllers
                 pagoDto.Id = int.Parse(HttpContext.Session.GetString("Id"));
                 pagoDto.Usuario = HttpContext.Session.GetString("Usuario");
                 pagoDto.Rolusuario = HttpContext.Session.GetString("Rol");
-                var json = await client.GetStringAsync("https://localhost:44337/api/pago/" + Id);
+                var json = await client.GetStringAsync("http://organiza.somee.com/api/pago/" + Id);
                 var _Pago = JsonConvert.DeserializeObject<ApiResponse<PagoRequestDto>>(json);
                 pagoDto.pagos.UpdatedBy = int.Parse(HttpContext.Session.GetString("Id"));
                 pagoDto.pagos.CreatedBy = int.Parse(HttpContext.Session.GetString("Id"));
@@ -127,7 +127,7 @@ namespace OrganiZa.Web.Controllers
                 do
                 {
 
-                    var putTask = await client.PutAsJsonAsync("https://localhost:44337/api/pago/?id=" + Id, pagoDto.pagos);
+                    var putTask = await client.PutAsJsonAsync("http://organiza.somee.com/api/pago/?id=" + Id, pagoDto.pagos);
                     if (putTask.IsSuccessStatusCode)
                     {
                         bolean = true;
@@ -141,7 +141,7 @@ namespace OrganiZa.Web.Controllers
             }
             else
             {
-                var json = await client.GetStringAsync("https://localhost:44337/api/pago/" + Id);
+                var json = await client.GetStringAsync("http://organiza.somee.com/api/pago/" + Id);
                 var _Pago = JsonConvert.DeserializeObject<ApiResponse<PagoRequestDto>>(json);
                 pagoDto.pagos.UpdatedBy = int.Parse(HttpContext.Session.GetString("Id"));
                 pagoDto.pagos.CreatedBy = int.Parse(HttpContext.Session.GetString("Id"));
@@ -153,7 +153,7 @@ namespace OrganiZa.Web.Controllers
                 do
                 {
                    
-                    var putTask = await client.PutAsJsonAsync("https://localhost:44337/api/pago/?id=" + Id, pagoDto.pagos);
+                    var putTask = await client.PutAsJsonAsync("http://organiza.somee.com/api/pago/?id=" + Id, pagoDto.pagos);
                    if( putTask.IsSuccessStatusCode)
                     {
                         bolean = true;
@@ -176,7 +176,7 @@ namespace OrganiZa.Web.Controllers
             tutor.Id = int.Parse(HttpContext.Session.GetString("Id"));
             tutor.Rolusuario = HttpContext.Session.GetString("Rol");
             tutor.Usuario = HttpContext.Session.GetString("Usuario");
-            var Tutores = await client.GetStringAsync("https://localhost:44337/api/Tutor/");
+            var Tutores = await client.GetStringAsync("http://organiza.somee.com/api/Tutor/");
             var Tutors = JsonConvert.DeserializeObject<ApiResponse<List<TutorRequestDto>>>(Tutores);
             foreach (var m in Tutors.Data)
             {
@@ -209,7 +209,7 @@ namespace OrganiZa.Web.Controllers
             admin.pagos.Fichapago = admin.FichaPago;
             if (admin.file != null && admin.FichaPago != null && admin.pagos.Mespagado != null)
             {
-                var Tutores = await client.GetStringAsync("https://localhost:44337/api/Tutor/");
+                var Tutores = await client.GetStringAsync("http://organiza.somee.com/api/Tutor/");
                 var Tutors = JsonConvert.DeserializeObject<ApiResponse<List<TutorRequestDto>>>(Tutores);
                 foreach (var m in Tutors.Data)
                 {
@@ -238,7 +238,7 @@ namespace OrganiZa.Web.Controllers
                 admin.pagos.IdE = admin.IdE;
                 admin.pagos.CreateAt = DateTime.Now;
                 admin.pagos.TutorId = int.Parse(HttpContext.Session.GetString("Id"));
-                var Json = await client.PostAsJsonAsync("https://localhost:44337/api/pago/", adminRequestDto);
+                var Json = await client.PostAsJsonAsync("http://organiza.somee.com/api/pago/", adminRequestDto);
                 if (Json.IsSuccessStatusCode)
                 {
                     return RedirectToAction("PagoExito");
