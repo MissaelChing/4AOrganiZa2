@@ -198,20 +198,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MissaelChingRM\\.nuget\\packages\\": {}
+    "C:\\Users\\joela\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj",
+      "projectUniqueName": "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj",
       "projectName": "OrganiZa.Application",
-      "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj",
-      "packagesPath": "C:\\Users\\MissaelChingRM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Application\\obj\\",
+      "projectPath": "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj",
+      "packagesPath": "C:\\Users\\joela\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\MissaelChingRM\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\joela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -222,9 +227,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
-              "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
+            "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
+              "projectPath": "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
             }
           }
         }
@@ -237,6 +243,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
@@ -258,7 +265,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

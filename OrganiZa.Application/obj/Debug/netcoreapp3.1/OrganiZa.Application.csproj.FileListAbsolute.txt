@@ -142,3 +142,15 @@ C:\Users\MissaelChingRM\Desktop\PROYECTO\Nueva carpeta (2)\4AOrganiZa2\OrganiZa.
 C:\Users\MissaelChingRM\Desktop\PROYECTO\Nueva carpeta (2)\4AOrganiZa2\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.csproj.CopyComplete
 C:\Users\MissaelChingRM\Desktop\PROYECTO\Nueva carpeta (2)\4AOrganiZa2\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.dll
 C:\Users\MissaelChingRM\Desktop\PROYECTO\Nueva carpeta (2)\4AOrganiZa2\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.pdb
+C:\Users\joela\Documents\UTM\Repositorios\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\bin\Debug\netcoreapp3.1\OrganiZa.Application.deps.json
+C:\Users\joela\Documents\UTM\Repositorios\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\bin\Debug\netcoreapp3.1\OrganiZa.Application.dll
+C:\Users\joela\Documents\UTM\Repositorios\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\bin\Debug\netcoreapp3.1\OrganiZa.Application.pdb
+C:\Users\joela\Documents\UTM\Repositorios\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\bin\Debug\netcoreapp3.1\OrganiZa.Domain.dll
+C:\Users\joela\Documents\UTM\Repositorios\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\bin\Debug\netcoreapp3.1\OrganiZa.Domain.pdb
+C:\Users\joela\Documents\UTM\Repositorios\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.csprojAssemblyReference.cache
+C:\Users\joela\Documents\UTM\Repositorios\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.AssemblyInfoInputs.cache
+C:\Users\joela\Documents\UTM\Repositorios\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.AssemblyInfo.cs
+C:\Users\joela\Documents\UTM\Repositorios\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.csproj.CoreCompileInputs.cache
+C:\Users\joela\Documents\UTM\Repositorios\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.csproj.CopyComplete
+C:\Users\joela\Documents\UTM\Repositorios\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.dll
+C:\Users\joela\Documents\UTM\Repositorios\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\obj\Debug\netcoreapp3.1\OrganiZa.Application.pdb

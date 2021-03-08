@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {}
+    "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
+    "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj",
         "projectName": "OrganiZa.Domain",
-        "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj",
-        "packagesPath": "C:\\Users\\MissaelChingRM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Domain\\obj\\",
+        "projectPath": "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj",
+        "packagesPath": "C:\\Users\\joela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MissaelChingRM\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\joela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -26,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,22 +58,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {
+    "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj",
         "projectName": "OrganiZa.Infraestructure",
-        "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\MissaelChingRM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Infraestructure\\obj\\",
+        "projectPath": "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\joela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MissaelChingRM\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\joela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -78,9 +88,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
-                "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
+              "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
+                "projectPath": "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
               }
             }
           }
@@ -93,6 +104,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -120,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

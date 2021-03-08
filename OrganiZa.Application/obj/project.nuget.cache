@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vV+4As5LQQwQxSYP9LZfRxmxRj5MI9jt24/7xXJj6GUG64PhRgwlRw1TTNmkOEmEX6tiqYT5H5lPAGbA01TNIg==",
+  "dgSpecHash": "dYZxjMzLiR8PYCk9wxq99fKME7yWW5MppTzZlYw4slVod/A8dOV9jrq3I/aIxw6QtUzGAFl/rhRiKXoKT7F8UQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MissaelChingRM\\Desktop\\PROYECTO\\Nueva carpeta (2)\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj",
+  "projectFilePath": "C:\\Users\\joela\\Documents\\UTM\\Repositorios\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MissaelChingRM\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
-    "C:\\Users\\MissaelChingRM\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\MissaelChingRM\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+    "C:\\Users\\joela\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\joela\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\joela\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
