@@ -11,16 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OrganiZa.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Api", "OrganiZa.Api.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OrganiZa.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Application", "OrganiZa.Application.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OrganiZa.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain", "OrganiZa.Domain.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OrganiZa.Infraestructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Infraestructur" +
-    "e", "OrganiZa.Infraestructure.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OrganiZa.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Web", "OrganiZa.Web.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OrganiZa.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Api", "OrganiZa.Api.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OrganiZa.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Application", "OrganiZa.Application.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OrganiZa.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Domain", "OrganiZa.Domain.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OrganiZa.Infraestructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Infraestructure", "OrganiZa.Infraestructure.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("OrganiZa.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Web", "OrganiZa.Web.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrganiZa.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35c1e0c76d49461e0faf2efa52aee9294fd7904d")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrganiZa.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrganiZa.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Web\\OrganiZa.Web.csproj": {}
+    "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Web\\OrganiZa.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj": {
+    "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj",
+        "projectUniqueName": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj",
         "projectName": "OrganiZa.Api",
-        "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj",
-        "packagesPath": "C:\\Users\\MissaelChingRM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Api\\obj\\",
+        "projectPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj",
+        "packagesPath": "C:\\Users\\missa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MissaelChingRM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\missa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +26,16 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj": {
-                "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj"
+              "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj": {
+                "projectPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj"
               },
-              "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
-                "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
+              "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
+                "projectPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
               },
-              "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj"
+              "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj"
               }
             }
           }
@@ -47,6 +48,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -83,6 +85,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -91,7 +97,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -103,21 +110,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj": {
+    "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj",
+        "projectUniqueName": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj",
         "projectName": "OrganiZa.Application",
-        "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj",
-        "packagesPath": "C:\\Users\\MissaelChingRM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Application\\obj\\",
+        "projectPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj",
+        "packagesPath": "C:\\Users\\missa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MissaelChingRM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\missa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,9 +136,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
-                "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
+              "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
+                "projectPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
               }
             }
           }
@@ -144,6 +152,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -156,7 +165,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -165,21 +175,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
+    "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj",
         "projectName": "OrganiZa.Domain",
-        "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj",
-        "packagesPath": "C:\\Users\\MissaelChingRM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\obj\\",
+        "projectPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj",
+        "packagesPath": "C:\\Users\\missa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MissaelChingRM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\missa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -191,6 +201,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -202,13 +213,15 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -217,21 +230,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {
+    "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj",
         "projectName": "OrganiZa.Infraestructure",
-        "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\MissaelChingRM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Infraestructure\\obj\\",
+        "projectPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\missa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MissaelChingRM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\missa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -243,9 +256,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
-                "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
+              "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
+                "projectPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
               }
             }
           }
@@ -258,6 +272,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -276,7 +291,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -285,21 +301,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Web\\OrganiZa.Web.csproj": {
+    "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Web\\OrganiZa.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Web\\OrganiZa.Web.csproj",
+        "projectUniqueName": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Web\\OrganiZa.Web.csproj",
         "projectName": "OrganiZa.Web",
-        "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Web\\OrganiZa.Web.csproj",
-        "packagesPath": "C:\\Users\\MissaelChingRM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Web\\obj\\",
+        "projectPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Web\\OrganiZa.Web.csproj",
+        "packagesPath": "C:\\Users\\missa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MissaelChingRM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\missa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -311,18 +327,19 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj": {
-                "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj"
+              "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj": {
+                "projectPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Api\\OrganiZa.Api.csproj"
               },
-              "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj": {
-                "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj"
+              "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj": {
+                "projectPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Application\\OrganiZa.Application.csproj"
               },
-              "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
-                "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
+              "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj": {
+                "projectPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Domain\\OrganiZa.Domain.csproj"
               },
-              "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\MissaelChingRM\\Desktop\\Nueva carpeta\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj"
+              "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\missa\\Desktop\\4AOrganiZa2\\OrganiZa.Infraestructure\\OrganiZa.Infraestructure.csproj"
               }
             }
           }
@@ -335,6 +352,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -365,7 +383,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -377,7 +396,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

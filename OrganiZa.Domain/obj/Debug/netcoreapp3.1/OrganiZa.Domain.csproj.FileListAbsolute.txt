@@ -133,3 +133,13 @@ C:\Users\MissaelChingRM\Desktop\Nueva carpeta\4AOrganiZa2\OrganiZa.Domain\obj\De
 C:\Users\MissaelChingRM\Desktop\Nueva carpeta\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.csproj.CoreCompileInputs.cache
 C:\Users\MissaelChingRM\Desktop\Nueva carpeta\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.dll
 C:\Users\MissaelChingRM\Desktop\Nueva carpeta\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.pdb
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Domain\bin\Debug\netcoreapp3.1\OrganiZa.Domain.deps.json
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Domain\bin\Debug\netcoreapp3.1\OrganiZa.Domain.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Domain\bin\Debug\netcoreapp3.1\OrganiZa.Domain.pdb
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.AssemblyInfoInputs.cache
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.AssemblyInfo.cs
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.csproj.CoreCompileInputs.cache
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.sourcelink.json
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Domain\obj\Debug\netcoreapp3.1\OrganiZa.Domain.pdb

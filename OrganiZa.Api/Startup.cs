@@ -19,6 +19,7 @@ using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 using OrganiZa.Domain.Interfaces;
 using OrganiZa.Application.Services;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.OpenApi.Models;
 
 namespace OrganiZa.Api
 {
@@ -34,6 +35,11 @@ namespace OrganiZa.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Mi API", Version = "v1" });
+            });
+
             services.AddCors();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddControllers();
@@ -70,7 +76,8 @@ namespace OrganiZa.Api
                 app.UseDeveloperExceptionPage();
             }
 
-
+            app.UseSwagger();
+           
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -80,6 +87,11 @@ namespace OrganiZa.Api
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Mi API V1");
+                c.RoutePrefix = string.Empty; // Swagger UI en la raíz de la aplicación
             });
         } 
     }

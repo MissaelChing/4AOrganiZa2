@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Missael Ching R&M\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Missael Ching R&M\\.nuget\\packages"
+      "C:\\Users\\missa\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\missa\\.nuget\\packages"
     ]
   }
 }

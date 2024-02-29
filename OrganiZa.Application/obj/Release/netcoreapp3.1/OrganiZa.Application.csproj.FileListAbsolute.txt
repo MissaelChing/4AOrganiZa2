@@ -34,3 +34,17 @@ C:\Users\MissaelChingRM\Desktop\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\o
 C:\Users\MissaelChingRM\Desktop\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\obj\Release\netcoreapp3.1\OrganiZa.Application.csproj.CopyComplete
 C:\Users\MissaelChingRM\Desktop\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\obj\Release\netcoreapp3.1\OrganiZa.Application.dll
 C:\Users\MissaelChingRM\Desktop\Nueva carpeta\4AOrganiZa2\OrganiZa.Application\obj\Release\netcoreapp3.1\OrganiZa.Application.pdb
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Application\bin\Release\netcoreapp3.1\OrganiZa.Application.deps.json
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Application\bin\Release\netcoreapp3.1\OrganiZa.Application.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Application\bin\Release\netcoreapp3.1\OrganiZa.Application.pdb
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Application\bin\Release\netcoreapp3.1\OrganiZa.Domain.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Application\bin\Release\netcoreapp3.1\OrganiZa.Domain.pdb
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Application\obj\Release\netcoreapp3.1\OrganiZa.Application.csproj.AssemblyReference.cache
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Application\obj\Release\netcoreapp3.1\OrganiZa.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Application\obj\Release\netcoreapp3.1\OrganiZa.Application.AssemblyInfoInputs.cache
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Application\obj\Release\netcoreapp3.1\OrganiZa.Application.AssemblyInfo.cs
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Application\obj\Release\netcoreapp3.1\OrganiZa.Application.csproj.CoreCompileInputs.cache
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Application\obj\Release\netcoreapp3.1\OrganiZa.Application.sourcelink.json
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Application\obj\Release\netcoreapp3.1\OrganiZa.Application.csproj.CopyComplete
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Application\obj\Release\netcoreapp3.1\OrganiZa.Application.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Application\obj\Release\netcoreapp3.1\OrganiZa.Application.pdb

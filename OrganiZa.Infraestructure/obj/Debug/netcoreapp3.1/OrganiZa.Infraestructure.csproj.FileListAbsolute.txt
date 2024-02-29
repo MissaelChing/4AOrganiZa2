@@ -223,3 +223,20 @@ C:\Users\MissaelChingRM\Desktop\Nueva carpeta\4AOrganiZa2\OrganiZa.Infraestructu
 C:\Users\MissaelChingRM\Desktop\Nueva carpeta\4AOrganiZa2\OrganiZa.Infraestructure\obj\Debug\netcoreapp3.1\OrganiZa.Infraestructure.dll
 C:\Users\MissaelChingRM\Desktop\Nueva carpeta\4AOrganiZa2\OrganiZa.Infraestructure\obj\Debug\netcoreapp3.1\OrganiZa.Infraestructure.pdb
 C:\Users\MissaelChingRM\Desktop\Nueva carpeta\4AOrganiZa2\OrganiZa.Infraestructure\obj\Debug\netcoreapp3.1\OrganiZa.Infraestructure.genruntimeconfig.cache
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\bin\Debug\netcoreapp3.1\OrganiZa.Infraestructure.deps.json
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\bin\Debug\netcoreapp3.1\OrganiZa.Infraestructure.runtimeconfig.json
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\bin\Debug\netcoreapp3.1\OrganiZa.Infraestructure.runtimeconfig.dev.json
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\bin\Debug\netcoreapp3.1\OrganiZa.Infraestructure.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\bin\Debug\netcoreapp3.1\OrganiZa.Infraestructure.pdb
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\bin\Debug\netcoreapp3.1\OrganiZa.Domain.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\bin\Debug\netcoreapp3.1\OrganiZa.Domain.pdb
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\obj\Debug\netcoreapp3.1\OrganiZa.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\obj\Debug\netcoreapp3.1\OrganiZa.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\obj\Debug\netcoreapp3.1\OrganiZa.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\obj\Debug\netcoreapp3.1\OrganiZa.Infraestructure.AssemblyInfo.cs
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\obj\Debug\netcoreapp3.1\OrganiZa.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\obj\Debug\netcoreapp3.1\OrganiZa.Infraestructure.sourcelink.json
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\obj\Debug\netcoreapp3.1\OrganiZa.Infraestructure.csproj.CopyComplete
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\obj\Debug\netcoreapp3.1\OrganiZa.Infraestructure.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\obj\Debug\netcoreapp3.1\OrganiZa.Infraestructure.pdb
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Infraestructure\obj\Debug\netcoreapp3.1\OrganiZa.Infraestructure.genruntimeconfig.cache
