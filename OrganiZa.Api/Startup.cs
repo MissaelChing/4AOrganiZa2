@@ -20,6 +20,8 @@ using OrganiZa.Domain.Interfaces;
 using OrganiZa.Application.Services;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.VisualStudio.Web.CodeGeneration.Contracts.ProjectModel;
 
 namespace OrganiZa.Api
 {
@@ -33,6 +35,7 @@ namespace OrganiZa.Api
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSwaggerGen(c =>
@@ -44,14 +47,11 @@ namespace OrganiZa.Api
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddControllers();
             services.AddDbContext<OrganizarecContext>(options =>
-                  options.UseSqlServer(Configuration.GetConnectionString("Missael"))
-          );
-
-            services.AddMvc().AddFluentValidation(options =>
-                     options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
-            services.AddControllers().AddNewtonsoftJson(options =>
-                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
-                );
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("Missael"));
+            });
+            services.AddMvc().AddFluentValidation(options => options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
+            services.AddControllers().AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddTransient<IUsuarioService, UsuarioService>();
             services.AddTransient<ITutorService, TutorService>();
             services.AddTransient<IPagosService, PagoService>();

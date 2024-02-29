@@ -616,3 +616,14 @@ C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Api\bin\Release\netcoreapp3.1\Micros
 C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Api\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Api\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Api\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Api\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Api\bin\Release\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Api\bin\Release\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\missa\Desktop\4AOrganiZa2\OrganiZa.Api\bin\Release\netcoreapp3.1\System.Text.Json.dll

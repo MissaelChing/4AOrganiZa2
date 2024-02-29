@@ -314,6 +314,7 @@ namespace OrganiZa.Infraestructure.Migrations
                         .UseIdentityColumn();
 
                     b.Property<string>("Contraseña")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreateAt")
@@ -329,6 +330,7 @@ namespace OrganiZa.Infraestructure.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Rolusuario")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("Status")

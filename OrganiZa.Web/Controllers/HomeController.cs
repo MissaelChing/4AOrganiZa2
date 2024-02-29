@@ -1,10 +1,12 @@
 ﻿using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using OrganiZa.Api.Responses;
@@ -19,7 +21,16 @@ namespace OrganiZa.Web.Controllers
     {        
 
         HttpClient client = new HttpClient();
-        public string url = "http://organiza.somee.com/api/usuario";
+        string url;
+        public HomeController()
+        {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+            IConfigurationRoot configuration = builder.Build();
+            url = configuration["Url"];
+            _ = url + "api/usuario/";
+        }
         public IActionResult Index()
         {
           
@@ -60,7 +71,7 @@ namespace OrganiZa.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> IndexAsync(LoginModel login)
         {
-            var json = await client.GetStringAsync("http://organiza.somee.com/api/usuario/");
+            var json = await client.GetStringAsync(url + "api/usuario/");
             var Usuarios = JsonConvert.DeserializeObject<ApiResponse<List<UsuarioResponseDto>>>(json);
             if(login.Usuario == null && login.Contraseña ==null)
             {
