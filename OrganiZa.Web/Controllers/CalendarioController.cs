@@ -74,7 +74,7 @@ namespace OrganiZa.Web.Controllers
             calendarioRequestDto.IdA = calendarios.Escuelas.IdA;
             calendarioRequestDto.ModoP = calendarios.Escuelas.ModoP;
             calendarioRequestDto.IdE = calendarios.Escuelas.Id;
-            var Json = await client.PostAsJsonAsync(Url +"api/Calendario/", calendarioRequestDto);
+            var Json = await client.PostAsJsonAsync(url + "api/Calendario/", calendarioRequestDto);
             
             
             
@@ -86,11 +86,11 @@ namespace OrganiZa.Web.Controllers
             calendarios.id = int.Parse(HttpContext.Session.GetString("Id"));
             calendarios.Rolusuario = HttpContext.Session.GetString("Rol");
             calendarios.Usuario = HttpContext.Session.GetString("Usuario");
-            var Es = await client.GetStringAsync(Url + "api/escuela");
+            var Es = await client.GetStringAsync(url + "api/escuela");
             var pag = JsonConvert.DeserializeObject<ApiResponse<List<EscuelaResponseDto>>>(Es);
-            var calen = await client.GetStringAsync(Url + "api/Calendario");
+            var calen = await client.GetStringAsync(url + "api/Calendario");
             var cal = JsonConvert.DeserializeObject<ApiResponse<List<CalendarioReponseDto>>>(calen);
-            var Tutores = await client.GetStringAsync(Url + "api/Tutor");
+            var Tutores = await client.GetStringAsync(url + "api/Tutor");
             var Tutors = JsonConvert.DeserializeObject<ApiResponse<List<TutorResponseDto>>>(Tutores);
             foreach (var m in Tutors.Data)
             {
@@ -132,11 +132,11 @@ namespace OrganiZa.Web.Controllers
             calendarios.id = int.Parse(HttpContext.Session.GetString("Id"));
             calendarios.Rolusuario = HttpContext.Session.GetString("Rol");
             calendarios.Usuario = HttpContext.Session.GetString("Usuario");
-            var Es = await client.GetStringAsync(Url + "api/escuela");
+            var Es = await client.GetStringAsync(url + "api/escuela");
             var pag = JsonConvert.DeserializeObject<ApiResponse<List<EscuelaResponseDto>>>(Es);
-            var calen = await client.GetStringAsync(Url + "api/Calendario");
+            var calen = await client.GetStringAsync(url + "api/Calendario");
             var cal = JsonConvert.DeserializeObject<ApiResponse<List<CalendarioReponseDto>>>(calen);
-            var Tutores = await client.GetStringAsync(Url + "api/Administrador");
+            var Tutores = await client.GetStringAsync(url + "api/Administrador");
             var Tutors = JsonConvert.DeserializeObject<ApiResponse<List<AdministradorResponseDto>>>(Tutores);
             foreach (var m in Tutors.Data)
             {

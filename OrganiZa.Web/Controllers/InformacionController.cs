@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using OrganiZa.Api.Responses;
 using OrganiZa.Domain.DTOs;
@@ -15,7 +17,18 @@ namespace OrganiZa.Web.Controllers
     public class InformacionController : Controller
     {
         HttpClient client = new HttpClient();
-        string url = "http://organiza.somee.com/api/tutor";
+        string url;
+        string url2;
+        public InformacionController()
+        {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+            IConfigurationRoot configuration = builder.Build();
+            url = configuration["Url"];
+            _ = url + "/api/tutor";
+            url2 = configuration["Url"];
+        }
         // GET: InformacionController
         public ActionResult Index()
         {
@@ -39,7 +52,7 @@ namespace OrganiZa.Web.Controllers
             {
                 var json = await client.GetStringAsync(url);
                 var Pagos = JsonConvert.DeserializeObject<ApiResponse<List<TutorResponseDto>>>(json);
-                var Tutores = await client.GetStringAsync("http://organiza.somee.com/api/escuela/");
+                var Tutores = await client.GetStringAsync(url2 + "api/escuela/");
                 var Tutors = JsonConvert.DeserializeObject<ApiResponse<List<EscuelaRequestDto>>>(Tutores);
                 foreach (var m in Tutors.Data)
                 {
@@ -76,7 +89,7 @@ namespace OrganiZa.Web.Controllers
             pagoDto.Rolusuario = HttpContext.Session.GetString("Rol");
             if (HttpContext.Session.GetString("Id") != null)
             {
-                var json = await client.GetStringAsync("http://organiza.somee.com/api/tutor/" + id);
+                var json = await client.GetStringAsync(url+"/" + id);
                 var _Pago = JsonConvert.DeserializeObject<ApiResponse<TutorRequestDto>>(json);
                 pagoDto.Tutor = _Pago.Data;
                 if (_Pago.Data.FichaPago != null)
@@ -112,7 +125,7 @@ namespace OrganiZa.Web.Controllers
                 pagoDto.id = int.Parse(HttpContext.Session.GetString("Id"));
                 pagoDto.Usuario = HttpContext.Session.GetString("Usuario");
                 pagoDto.Rolusuario = HttpContext.Session.GetString("Rol");
-                var json = await client.GetStringAsync("http://organiza.somee.com/api/tutor/" + Id);
+                var json = await client.GetStringAsync(url+"/" + Id);
                 var _Pago = JsonConvert.DeserializeObject<ApiResponse<TutorRequestDto>>(json);
                 pagoDto.Tutor.UpdatedBy = int.Parse(HttpContext.Session.GetString("Id"));
                 pagoDto.Tutor.CreatedBy = int.Parse(HttpContext.Session.GetString("Id"));

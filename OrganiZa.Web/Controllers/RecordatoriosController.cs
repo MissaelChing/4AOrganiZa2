@@ -8,6 +8,7 @@ using System.Net.Mail;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using OrganiZa.Api.Responses;
 using OrganiZa.Domain.DTOs;
@@ -21,7 +22,16 @@ namespace OrganiZa.Web.Controllers
         HttpClient client = new HttpClient();
         RecordatoriosModels ReDto2 = new RecordatoriosModels();
 
+        string url;
+        public RecordatoriosController()
+        {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+            IConfigurationRoot configuration = builder.Build();
+            url = configuration["Url"];
 
+        }
         // GET: RecordatoriosController
 
 
@@ -35,7 +45,7 @@ namespace OrganiZa.Web.Controllers
             ReDto.Usuario = HttpContext.Session.GetString("Usuario");
             ReDto.Rolusuario = HttpContext.Session.GetString("Rol");
 
-            var pa = await client.GetStringAsync("http://organiza.somee.com/api/Usuario/");
+            var pa = await client.GetStringAsync(url +"api/Usuario/");
             var pag = JsonConvert.DeserializeObject<ApiResponse<List<UsuarioResponseDto>>>(pa);
             foreach (var m in pag.Data)
             {
@@ -63,7 +73,7 @@ namespace OrganiZa.Web.Controllers
             ReDto.Usuario = HttpContext.Session.GetString("Usuario");
             ReDto.Rolusuario = HttpContext.Session.GetString("Rol");
 
-            var pa = await client.GetStringAsync("http://organiza.somee.com/api/Usuario/");
+            var pa = await client.GetStringAsync(url + "api/Usuario/");
             var pag = JsonConvert.DeserializeObject<ApiResponse<List<UsuarioResponseDto>>>(pa);
             foreach (var m in pag.Data)
             {
@@ -129,9 +139,9 @@ namespace OrganiZa.Web.Controllers
             models2.Id = int.Parse(HttpContext.Session.GetString("Id"));
             models2.Usuario = HttpContext.Session.GetString("Usuario");
             models2.Rolusuario = HttpContext.Session.GetString("Rol");
-            var Tutores = await client.GetStringAsync("http://organiza.somee.com/api/tutor/");
+            var Tutores = await client.GetStringAsync(url + "api/tutor/");
             var Tutors = JsonConvert.DeserializeObject<ApiResponse<List<TutorResponseDto>>>(Tutores);
-            var pa = await client.GetStringAsync("http://organiza.somee.com/api/Escuela/");
+            var pa = await client.GetStringAsync(url + "api/Escuela/");
             var pag = JsonConvert.DeserializeObject<ApiResponse<List<EscuelaResponseDto>>>(pa);
             foreach (var m in pag.Data)
             {

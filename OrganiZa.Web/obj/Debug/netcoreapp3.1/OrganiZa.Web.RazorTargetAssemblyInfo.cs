@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrganiZa.Web")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85f8384acaf981e851702d45c1be5c254cb1c5e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fe5f8e23250c762cc3aaaaefc27d5da099a8626")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrganiZa.Web.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
